@@ -1,7 +1,25 @@
 body {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     margin: 0;
     padding: 0;
     font-size: 100%;
     line-height: 1;
+    background-color: hsl(225, 100%, 94%)
+}
+
+.component-container {
+    background-image: url('img/illustration-hero.svg');
+}
+
+.component-title {
+    margin-top: 80px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
 }
