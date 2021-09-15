@@ -1,4 +1,5 @@
 body {
+    border-radius: 10px;
     /* display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +16,7 @@ body {
     justify-content: center;
     /* margin: 0 auto;
     padding: 50px 90px; */
+    border-radius: 15px;
 }
 
 .image-picture {
@@ -28,14 +30,19 @@ body {
 .pic {
     margin: 0 auto 0;
     width: 500px;
+    padding-bottom: 0;
+    border-radius: 5px;
 }
 
 .container {
   background-color: hsl(225, 100%, 98%);
-  padding-top: 40px;
+  position: relative;
+  bottom: 5px;
+  padding-top: 30px;
   margin-top: 0;
   width: 500px;
   height: 500px;
+  border-radius: 5px;
 }
 
 
@@ -97,6 +104,26 @@ body {
 .price-one {
     position: relative;
     bottom: 10px;
+}
+
+.payment {
+    text-align: center;
+}
+
+.btn-one {
+    display: inline-block;
+    font-weight: 900;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    padding: 13px 110px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.btn-two {
+    color:hsl(224, 23%, 55%);
+    text-decoration: none;
 }
 
 a {
