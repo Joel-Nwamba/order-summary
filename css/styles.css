@@ -16,7 +16,7 @@ body {
     justify-content: center;
     /* margin: 0 auto;
     padding: 50px 90px; */
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .image-picture {
@@ -31,7 +31,7 @@ body {
     margin: 0 auto 0;
     width: 500px;
     padding-bottom: 0;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .container {
@@ -64,17 +64,17 @@ body {
 
 .component-image {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
-    margin: 40px 70px;
-    margin-left: 90px;
-    margin-right: 90px;
-    /* flex-wrap: wrap; */
+    margin: 40px 90px;
+    /* margin-left: 110px;
+    margin-right: 110px; */
+    flex-wrap: wrap;
     padding: 10px;
     border-radius: 8px;
-    background-color: hsl(225, 100%, 94%);
+    background-color: #B0C4DE;
 }
 
 .icon-image {
@@ -94,7 +94,8 @@ body {
 
 .change {
     color: hsl(223, 47%, 23%);
-    font-weight: 900;
+    font-weight: 700;
+    padding-right: 10px;
 }
 
 .price {
