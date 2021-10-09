@@ -1,42 +1,29 @@
 <!DOCTYPE html>
-<hmtl lang = "en">
+<html>
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=7">
-        <meta description = "" name = "" >
-        <title>Order Summary</title>
-        <link href = "css/styles.css" rel = "stylesheet">
+        <title>Order Summary board</title>
+        <link href="css/styles.css" rel="stylesheet">
     </head>
     <body>
-        <div class ="control-center">
-        <div class = "image-picture">
-            <img class ="pic" src = "./img/illustration-hero.svg">
-        <div class="container">
-            <h1 class = "component-title">Order Summary</h1>
-    
-        <div class = "component-text">
-            <p class = "text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-
-            </p>
-        </div>
-        <div class="component-image">
-            <div class="component-icon">
-            <img class="icon-image" src = "img/icon-music.svg">
-            <div class="price">
-            <p><strong>Annual Plan</strong></p>
-            <p class="price-one">$59.99/year</p>
-        </div>
-        </div>
-        <a class="change" href = "#">Change</a>
-    </div>
-        <div class="payment">
-            <a class="btn-one" href="#">Proceed to Payment</a>
-            <div>
-            <a class= "btn-two" href = "#">Cancel Order</a>
-        </div>
-        </div>
-    </div>
-    </div>
-</div>
-     </body>
-</hmtl>
+        <section class="card">
+            <img id="hero-illustration" src="img/illustration-hero.svg" alt="">
+            <section class="card-content">
+                <h1 class="card-title">Order Summary</h1>
+                <p class="card-paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like</p>
+                <section class="plan">
+                    <section class="plan-info">
+                        <img class="plan-icon" src="img/icon-music.svg" alt="music icon">
+                        <section class="plan-text">
+                            <p class="plan-name">Annual Plan</p>
+                            <p class="plan-price">$59.99/year</p>
+                        </section>
+                    </section>
+                    <a class="cancel-plan" href="#">Cancel</a>
+                </section>
+                <a class="plan-payment" href="#">Proceed to Payment</a>
+                <a class="order-cancel" href="#">Cancel Order</a>
+            </section>
+        </section>
+    </body>
+</html>
