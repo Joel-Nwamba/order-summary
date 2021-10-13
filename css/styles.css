@@ -95,3 +95,19 @@ body {
     width: 85%;
     align-items: center;
 }
+
+.plan-payment {
+    text-decoration: none;
+    color: #fff;
+    background-color: hsl(223, 47%, 23%);
+    width: 100%;
+    padding: .6em;
+    margin-bottom: .7em;
+    border-radius: 10px;
+}
+
+.order-cancel {
+    text-decoration: none;
+    color: #252525;
+    margin-bottom: 2em;
+}
