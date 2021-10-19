@@ -24,7 +24,7 @@ body {
     align-items: center;
 }
 
-.card {
+.card-one {
     background-color: #fff;
     width: 25%;
     text-align: center;
@@ -39,7 +39,7 @@ body {
     margin-bottom: 3rem;
 }
 
-.card-title {
+.title {
     font-size: 1.65rem;
     font-weight: 900;
     margin-bottom: .5rem;
@@ -51,7 +51,7 @@ body {
     line-height: 1.5;
 }
 
-.plan {
+.card-plan {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -63,29 +63,29 @@ body {
     margin: 1.5em;
 }
 
-.plan-info {
+.card-info {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     flex-grow: 2;
 }
 
-.plan-text {
+.card-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.plan-name {
+.card-name {
     font-weight: 900;
     font-size: 0.9rem;
 }
 
-.plan-price {
+.card-price {
     color: hsla(214, 4%, 33%, 0.9);
 }
 
-.plan-icon {
+.card-icon {
     margin-right: 0.9em;
 }
 
